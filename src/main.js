@@ -1,10 +1,8 @@
 const React = require('react')
 import MDevWrap from './wrap.js'
 import Navigation from './navigation.js'
-import './main.css'
-
+import './main.css';
 window.oldLog  = window.console
-
 
 class MDev extends React.Component {
   constructor(props) {
